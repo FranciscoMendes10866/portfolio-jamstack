@@ -9,7 +9,7 @@ import './assets/css/tailwind.css'
 
 const apolloProvider = new VueApollo({
   defaultClient: new ApolloClient({
-    uri: 'https://api-eu-central-1.graphcms.com/v2/ckcdct4ib0fdx01z25e68bkxi/master'
+    uri: 'https://api-eu-central-1.graphcms.com/v2/ckcdiylo70lb801yv2yuc1r0c/master'
   })
 })
 

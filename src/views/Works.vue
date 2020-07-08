@@ -18,11 +18,14 @@
         <div class="grid grid-cols-1">
           <ApolloQuery :query="require('../graphql/getWorks.gql')">
             <template v-slot="{ result: { error, data } }">
-              <h1 v-if="error">Try again later.</h1>
+              <h1 v-if="error" class="font-bold text-white tracking-wide text-4xl">Try again later.</h1>
               <div v-if="data">
-                <div v-for="item in data.work" :key="item.id">
-                  <h2 class="font-bold text-white tracking-wide text-4xl">{{ item.name }}</h2>
-                  <img :src="item.thumbnail.id" />
+                <div v-for="item in data.projects" :key="item.id">
+                  <h2 class="font-bold text-white tracking-wide text-4xl">{{ item.projectName }}</h2>
+                  <img :src="item.thumbnailCloudinary" class="object-cover w-full" />
+                  <a :href="item.websiteUrl" target="blank">
+                    <span class="font-semi-bold text-white tracking-wide">Visit website&nbsp;&nbsp;<ion-icon name="open-outline" /></span>
+                  </a>
                 </div>
               </div>
             </template>
@@ -31,7 +34,7 @@
       </div>
     </section>
     <!-- Work Section -->
-    <section class="bg-gray-100 py-32">
+    <section class="bg-gray-200 py-32">
       <div class="container mx-auto">
         <div class="grid grid-cols-2 mt-10">
           <div>
