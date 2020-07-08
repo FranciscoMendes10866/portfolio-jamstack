@@ -12,7 +12,6 @@
     "core-js": "^3.6.5",
     "graphql-tag": "^2.10.3",
     "tailwindcss": "^1.4.6",
-    "vercel": "^19.1.1",
     "vue": "^2.6.11",
     "vue-apollo": "^3.0.3",
     "vue-cli-plugin-apollo": "^0.22.2",
