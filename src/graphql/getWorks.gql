@@ -1,0 +1,30 @@
+query allWorks {
+  work {
+    thumbnail {
+      id
+    }
+    name
+    resume
+    description
+    uiDesign {
+      id
+    }
+    ideia
+    challenges
+    uxDesign {
+      id
+    }
+    design
+    frontend
+    uiUxDesign {
+      id
+    }
+    backend
+    deployment
+    finalDesign {
+      id
+    }
+    conclusion
+    techStack
+  }
+}

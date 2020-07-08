@@ -1,0 +1,86 @@
+<template>
+  <div class="index">
+    <!-- Hero Section -->
+    <section class="bg-white py-64">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1">
+          <div>
+            <h1 class="font-black text-center text-4xl tracking-wide leading-loose">
+              Let's talk.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Email Section -->
+    <section class="bg-gray-300 py-32">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-2">
+          <div>
+            <h1 class="text-4xl font-bold tracking-wide">
+              Email
+            </h1>
+          </div>
+          <div>
+            <p class="text-lg font-normal tracking-wide leading-loose">
+              Please don't hesitate to get in touch to discuss
+              any possible projects or further information
+              or even just to say hello!
+            </p>
+            <p class="mt-8 text-lg font-normal tracking-wide leading-loose">
+              You can reach me by filling out the form
+              (down below), or emailing me to:
+            </p>
+            <p class="mt-8 text-lg font-normal tracking-wide leading-loose">
+              <a href class="font-bold">franciscomendes@gmail.com</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Social Media Section -->
+    <section class="bg-gray-200 py-32">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-2">
+          <div>
+            <h1 class="text-4xl font-bold tracking-wide">
+              Social Media
+            </h1>
+          </div>
+          <div>
+            <p class="text-lg font-normal tracking-wide leading-loose">
+              You can also contact me on social media, there
+              I love to share some daily tests I do.
+            </p>
+            <p class="mt-8 text-lg font-normal tracking-wide leading-loose">
+              Also, you can contact me on my portfolio page,
+              to see my new case studies.
+            </p>
+            <p class="mt-8 text-lg font-normal tracking-wide leading-loose">
+              <a
+                class="text-black font-bold"
+                href="https://www.instagram.com/francisco.morais.mendes/"
+                target="blank"
+              >Instagram</a> and
+              <a
+                class="text-black font-bold"
+                href="https://github.com/FranciscoMendes10866"
+                target="blank"
+              >Github</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form Section -->
+    <Form />
+  </div>
+</template>
+
+<script>
+export default {
+  components: {
+    Form: () => import('../components/Form')
+  }
+}
+</script>

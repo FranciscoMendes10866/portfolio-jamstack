@@ -1,0 +1,12 @@
+/**
+* Fonts
+**/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+/**
+* General styles
+**/
+* {
+  font-family: 'Merriweather', serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
