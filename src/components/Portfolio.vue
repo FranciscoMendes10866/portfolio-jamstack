@@ -6,7 +6,7 @@
           <div v-for="project in projects" :key="project.id" class="mt-10 md:mt-32">
             <router-link :to="project.to">
               <div class="text-transparent hover:text-gray-800">
-                <img class="z-0 p-10" :src="project.thumb" :alt="project.alt" />
+                <img class="z-0 p-10 object-cover w-full" :src="project.thumb" :alt="project.alt" />
                 <h1
                   class="underline ml-16 md:ml-24 text-left text-2xl md:text-4xl lg:text-5xl z-20 -mt-32 md:-mt-48 lg:-mt-64"
                 >{{ project.title }}</h1>
