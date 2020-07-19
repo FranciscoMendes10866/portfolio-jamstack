@@ -1,11 +1,13 @@
 <template>
   <div class="index">
     <!-- Hero Section -->
-    <section class="bg-white py-64">
+    <section class="bg-white py-40 md:py-64">
       <div class="container mx-auto">
         <div class="grid grid-cols-1">
           <div>
-            <h1 class="text-center text-4xl tracking-wide leading-loose">
+            <h1
+              class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
+            >
               My name is
               <span class="font-black">Francisco Mendes</span> and I’m the proud owner
               of an overactive imagination and curious mind.
@@ -17,32 +19,40 @@
     <!-- Front-end Section -->
     <section class="bg-gray-300 py-32">
       <div class="container mx-auto">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h1 class="text-4xl font-bold tracking-wide">
-              Front-end
-            </h1>
+            <h1 class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide">Front-end</h1>
           </div>
           <div>
             <p
-              class="text-lg font-normal tracking-wide leading-loose"
+              class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-4 md:mt-0"
+            >I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+            <div
+              class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
             >
-              I like to code things from scratch, and enjoy bringing ideas to life in the browser.
-            </p>
-            <div class="grid grid-cols-2 mt-6 text-gray-600 text-lg font-normal tracking-wide">
               <div>
-                <h1><ion-icon name="logo-css3" />&nbsp;&nbsp;Tailwind CSS</h1>
+                <h1>
+                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Tailwind CSS
+                </h1>
               </div>
               <div>
-                <h1><ion-icon name="logo-css3" />&nbsp;&nbsp;Bulma CSS</h1>
+                <h1>
+                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Bulma CSS
+                </h1>
               </div>
             </div>
-            <div class="grid grid-cols-2 mt-6 text-gray-600 text-lg font-normal tracking-wide">
+            <div
+              class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
+            >
               <div>
-                <h1><ion-icon name="logo-css3" />&nbsp;&nbsp;Vuetify</h1>
+                <h1>
+                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Vuetify
+                </h1>
               </div>
               <div>
-                <h1><ion-icon name="logo-css3" />&nbsp;&nbsp;Vuesax</h1>
+                <h1>
+                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Vuesax
+                </h1>
               </div>
             </div>
           </div>
@@ -52,32 +62,40 @@
     <!-- Back-end Section -->
     <section class="bg-gray-200 py-32">
       <div class="container mx-auto">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h1 class="text-4xl font-bold tracking-wide">
-              Back-end
-            </h1>
+            <h1 class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide">Back-end</h1>
           </div>
           <div>
             <p
-              class="text-lg font-normal tracking-wide leading-loose"
+              class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-4 md:mt-0"
+            >I love the world of Node.js and since the very first API that a built, I haven't stopped coding.</p>
+            <div
+              class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
             >
-              I love the world of Node.js and since the very first API that a built, I haven't stopped coding.
-            </p>
-            <div class="grid grid-cols-2 mt-6 text-gray-600 text-lg font-normal tracking-wide">
               <div>
-                <h1><ion-icon name="logo-nodejs" />&nbsp;&nbsp;Node.js</h1>
+                <h1>
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Node.js
+                </h1>
               </div>
               <div>
-                <h1><ion-icon name="logo-nodejs" />&nbsp;&nbsp;Express.js</h1>
+                <h1>
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Express.js
+                </h1>
               </div>
             </div>
-            <div class="grid grid-cols-2 mt-6 text-gray-600 text-lg font-normal tracking-wide">
+            <div
+              class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
+            >
               <div>
-                <h1><ion-icon name="logo-nodejs" />&nbsp;&nbsp;Sequelize ORM</h1>
+                <h1>
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Sequelize ORM
+                </h1>
               </div>
               <div>
-                <h1><ion-icon name="logo-nodejs" />&nbsp;&nbsp;Prisma</h1>
+                <h1>
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Prisma
+                </h1>
               </div>
             </div>
           </div>
@@ -89,7 +107,9 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1">
           <div>
-            <h1 class="text-center text-4xl tracking-wide leading-loose">
+            <h1
+              class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
+            >
               I will help you to
               <span class="underline">accomplish your goals</span>.
             </h1>

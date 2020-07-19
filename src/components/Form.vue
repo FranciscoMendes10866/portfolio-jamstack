@@ -2,11 +2,11 @@
   <div>
     <section class="bg-white py-32">
       <div class="container mx-auto">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h1 class="text-4xl font-bold tracking-wide">Let's talk.</h1>
+            <h1 class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide">Let's talk.</h1>
           </div>
-          <div>
+          <div class="mt-6 md:mt-0">
             <form class="w-full max-w-lg" name="contact" method="POST" data-netlify="true">
               <div class="flex flex-wrap mb-6">
                 <div class="w-full px-3">
