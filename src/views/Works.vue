@@ -1,19 +1,26 @@
 <template>
   <div class="index">
     <!-- Hero Section -->
-    <section class="bg-white py-40 md:py-64">
+    <section class="bg-white py-40 md:py-48">
       <div class="container mx-auto">
         <div class="grid grid-cols-1">
           <div>
             <h1
               class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide leading-loose font-bold"
             >Made with meaning.</h1>
+            <h2 class="text-left md:text-center text-transparent md:text-gray-500">
+              <span>
+                <ion-icon class="mt-0 md:mt-32 text-2xl" name="arrow-down-outline" />
+              </span>
+            </h2>
           </div>
         </div>
       </div>
     </section>
+    <!-- Portfolio Section -->
+    <Portfolio />
     <!-- Work Section -->
-    <section class="bg-gray-200 py-32">
+    <section class="bg-gray-50 pt-40 md:pt-64">
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
@@ -40,5 +47,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  components: {
+    Portfolio: () => import('../components/Portfolio')
+  }
+}
 </script>

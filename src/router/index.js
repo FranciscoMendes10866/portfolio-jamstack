@@ -24,6 +24,31 @@ const routes = [
     path: '/works',
     name: 'Works',
     component: () => import('../views/Works.vue')
+  },
+  {
+    path: '/portfolio/glicemia',
+    name: 'Glicemia',
+    component: () => import('../views/portfolio/Glicemia.vue')
+  },
+  {
+    path: '/portfolio/illery',
+    name: 'Illery',
+    component: () => import('../views/portfolio/Illery.vue')
+  },
+  {
+    path: '/portfolio/noteit',
+    name: 'Note it!',
+    component: () => import('../views/portfolio/Noteit.vue')
+  },
+  {
+    path: '/portfolio/docus',
+    name: 'Docus',
+    component: () => import('../views/portfolio/Docus.vue')
+  },
+  {
+    path: '/portfolio/juliana',
+    name: 'Juliana PT',
+    component: () => import('../views/portfolio/Juliana.vue')
   }
 ]
 
