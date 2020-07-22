@@ -71,6 +71,14 @@ export default {
           to: '/portfolio/noteit',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Note it app image'
+        },
+        {
+          id: 6,
+          title: 'Locise',
+          desc: 'A link-based app',
+          to: '/portfolio/locise',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          alt: 'Locise app image'
         }
       ]
     }
