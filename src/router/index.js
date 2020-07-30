@@ -26,34 +26,39 @@ const routes = [
     component: () => import('../views/Works.vue')
   },
   {
-    path: '/portfolio/glicemia',
+    path: '/works/glicemia',
     name: 'Glicemia',
-    component: () => import('../views/portfolio/Glicemia.vue')
+    component: () => import('../views/works/Glicemia.vue')
   },
   {
-    path: '/portfolio/illery',
+    path: '/works/illery',
     name: 'Illery',
-    component: () => import('../views/portfolio/Illery.vue')
+    component: () => import('../views/works/Illery.vue')
   },
   {
-    path: '/portfolio/noteit',
+    path: '/works/noteit',
     name: 'Note it!',
-    component: () => import('../views/portfolio/Noteit.vue')
+    component: () => import('../views/works/Noteit.vue')
   },
   {
-    path: '/portfolio/docus',
+    path: '/works/docus',
     name: 'Docus',
-    component: () => import('../views/portfolio/Docus.vue')
+    component: () => import('../views/works/Docus.vue')
   },
   {
-    path: '/portfolio/juliana',
+    path: '/works/juliana',
     name: 'Juliana PT',
-    component: () => import('../views/portfolio/Juliana.vue')
+    component: () => import('../views/works/Juliana.vue')
   },
   {
-    path: '/portfolio/locise',
+    path: '/works/locise',
     name: 'Locise',
-    component: () => import('../views/portfolio/Locise.vue')
+    component: () => import('../views/works/Locise.vue')
+  },
+  {
+    path: '/works/minary',
+    name: 'Minary',
+    component: () => import('../views/works/Minary.vue')
   }
 ]
 

@@ -36,7 +36,7 @@ export default {
           id: 1,
           title: 'Mr. Glicémia',
           desc: 'An app for diabetic people.',
-          to: '/portfolio/glicemia',
+          to: '/works/glicemia',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Glicemia app image'
         },
@@ -44,7 +44,7 @@ export default {
           id: 2,
           title: 'Illery events',
           desc: 'An app to share multimedia events..',
-          to: '/portfolio/illery',
+          to: '/works/illery',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Illery app image'
         },
@@ -52,7 +52,7 @@ export default {
           id: 3,
           title: 'Juliana PT',
           desc: 'An app for a personal trainer.',
-          to: '/portfolio/juliana',
+          to: '/works/juliana',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Juliana Personal Trainer app image'
         },
@@ -60,7 +60,7 @@ export default {
           id: 4,
           title: 'Docus',
           desc: 'An app to share links.',
-          to: '/portfolio/docus',
+          to: '/works/docus',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Docus app image'
         },
@@ -68,7 +68,7 @@ export default {
           id: 5,
           title: 'Note it!',
           desc: 'A todo-list app',
-          to: '/portfolio/noteit',
+          to: '/works/noteit',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Note it app image'
         },
@@ -76,9 +76,17 @@ export default {
           id: 6,
           title: 'Locise',
           desc: 'A link-based app',
-          to: '/portfolio/locise',
+          to: '/works/locise',
           thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
           alt: 'Locise app image'
+        },
+        {
+          id: 7,
+          title: 'Minary',
+          desc: 'A blog app',
+          to: '/works/minary',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          alt: 'Minary app image'
         }
       ]
     }
