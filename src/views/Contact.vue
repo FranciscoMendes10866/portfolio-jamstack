@@ -5,9 +5,11 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1">
           <div>
-            <h1 class="font-black ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide leading-loose">
-              Let's talk.
-            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="500"
+              class="font-black ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide leading-loose"
+            >Let's talk.</h1>
           </div>
         </div>
       </div>
@@ -17,21 +19,35 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h1 class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide">
-              Email
-            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="500"
+              class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide"
+            >Email</h1>
           </div>
           <div>
-            <p class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               Please don't hesitate to get in touch to discuss
               any possible projects or further information
               or even just to say hello!
             </p>
-            <p class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="700"
+              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               You can reach me by filling out the form
               (down below), or emailing me to:
             </p>
-            <p class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               <a href class="font-bold">franciscomendes@gmail.com</a>.
             </p>
           </div>
@@ -43,20 +59,34 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h1 class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide">
-              Social Media
-            </h1>
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="500"
+              class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide"
+            >Social Media</h1>
           </div>
           <div>
-            <p class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               You can also contact me on social media, there
               I love to share some daily tests I do.
             </p>
-            <p class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="700"
+              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               Also, you can contact me on my portfolio page,
               to see my new case studies.
             </p>
-            <p class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="800"
+              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               <a
                 class="text-black font-bold"
                 href="https://www.instagram.com/francisco.morais.mendes/"

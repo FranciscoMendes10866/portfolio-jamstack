@@ -6,9 +6,15 @@
         <div class="grid grid-cols-1">
           <div>
             <h1
+              data-aos="fade-up"
+              data-aos-duration="500"
               class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide leading-loose font-bold"
             >Made with meaning.</h1>
-            <h2 class="text-left md:text-center text-transparent md:text-gray-500">
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="900"
+              class="text-left md:text-center text-transparent md:text-gray-500"
+            >
               <span>
                 <ion-icon class="mt-0 md:mt-32 text-2xl" name="arrow-down-outline" />
               </span>
