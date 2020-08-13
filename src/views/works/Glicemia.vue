@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Back arrow link -->
-    <div class="fixed ml-8 mt-12">
+    <div class="fixed ml-8 mt-8">
       <router-link to="/works">
         <h1 class="font-bold text-xl">
           <ion-icon class="align-middle" name="arrow-back-outline" />&nbsp;&nbsp;Back
@@ -28,8 +28,16 @@
               class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700"
             >{{ project.first_paragraph }}</p>
             <p
-              class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700"
+              class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700 mb-8"
             >{{ project.second_paragraph }}</p>
+            <a
+              :href="launch_project.href"
+              target="blank"
+              class="transition duration-100 ease-in-out px-4 py-2 bg-gray-700 hover:bg-gray-400 text-white hover:text-black"
+            >
+              Launch project&nbsp;&nbsp;
+              <ion-icon name="open-outline" />
+            </a>
           </div>
         </div>
       </div>
@@ -147,6 +155,9 @@ export default {
       routing: {
         previous: '/works/minary',
         next: '/works/illery'
+      },
+      launch_project: {
+        href: 'https://mr-glicemia.vercel.app'
       }
     }
   }
