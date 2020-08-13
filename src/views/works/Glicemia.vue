@@ -1,11 +1,9 @@
 <template>
   <div>
     <!-- Back arrow link -->
-    <div class="fixed ml-8 mt-8">
+    <div class="fixed ml-12 mt-8">
       <router-link to="/works">
-        <h1 class="font-bold text-xl">
-          <ion-icon class="align-middle" name="arrow-back-outline" />&nbsp;&nbsp;Back
-        </h1>
+        <ion-icon class="font-bold text-2xl text-gray-700" name="arrow-back-outline" />
       </router-link>
     </div>
     <!-- Project Header -->
@@ -33,9 +31,9 @@
             <a
               :href="launch_project.href"
               target="blank"
-              class="transition duration-100 ease-in-out px-4 py-2 bg-gray-700 hover:bg-gray-400 text-white hover:text-black"
+              class="transition duration-100 ease-in-out px-4 py-2 border-solid border-2 border-gray-400 hover:border-gray-600 bg-white hover:bg-gray-600 text-black hover:text-white"
             >
-              Launch project&nbsp;&nbsp;
+              Visit website&nbsp;&nbsp;
               <ion-icon name="open-outline" />
             </a>
           </div>
