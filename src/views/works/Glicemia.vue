@@ -66,13 +66,13 @@
       </div>
     </section>
     <!-- Screenshots -->
-    <section>
+    <section class="bg-gray-100">
       <div class="container mx-auto">
-        <div class="py-12">
+        <div class="py-32">
           <img
             v-for="screenshot in screenshots"
             :key="screenshot.id"
-            class="object-cover w-full"
+            class="object-cover w-full shadow-xl"
             v-lazy="screenshot.src"
             :alt="screenshot.alt"
           />
