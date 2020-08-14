@@ -68,11 +68,11 @@
     <!-- Screenshots -->
     <section class="bg-gray-100">
       <div class="container mx-auto">
-        <div class="py-32">
+        <div class="py-12">
           <img
             v-for="screenshot in screenshots"
             :key="screenshot.id"
-            class="object-cover w-full shadow-xl"
+            class="object-cover w-full shadow-lg mt-12 mb-12"
             v-lazy="screenshot.src"
             :alt="screenshot.alt"
           />
