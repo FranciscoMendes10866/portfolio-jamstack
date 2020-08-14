@@ -9,27 +9,27 @@
     <!-- Project Header -->
     <section>
       <div class="container mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-12 px-10 md:px-0 py-24 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-11 px-10 md:px-0 py-24 gap-12">
           <div class="col-span-2">
-            <h1 class="font-bold tracking-wide text-xl mb-4 text-center">Year</h1>
+            <h1 class="font-bold tracking-wide text-md mb-4 text-center">Year</h1>
             <p
-              class="tracking-wide leading-loose text-md font-normal text-gray-700 text-center"
+              class="tracking-wide leading-loose text-sm font-normal text-gray-700 text-center"
             >2020</p>
           </div>
           <div class="col-span-2">
-            <h1 class="font-bold tracking-wide text-xl mb-4">Tech Stack</h1>
+            <h1 class="font-bold tracking-wide text-md mb-4">Tech Stack</h1>
             <ul
               v-for="tech in project.tech_stack"
               :key="tech.id"
-              class="tracking-wide leading-loose text-md font-normal text-gray-700"
+              class="tracking-wide leading-loose text-sm font-normal text-gray-700"
             >
               <li>{{ tech.name }}</li>
             </ul>
           </div>
-          <div class="col-span-8">
-            <h1 class="font-bold tracking-wide text-4xl">{{ project.project_name }}</h1>
+          <div class="col-span-7">
+            <h1 class="font-bold tracking-wide text-5xl mb-8">{{ project.project_name }}</h1>
             <p
-              class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700"
+              class="tracking-wide leading-loose text-md font-normal text-gray-700"
             >{{ project.first_paragraph }}</p>
             <p
               class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700 mb-12"
