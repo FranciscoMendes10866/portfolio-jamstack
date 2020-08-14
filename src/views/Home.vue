@@ -11,7 +11,7 @@
               class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
               My name is
-              <span class="font-black">Francisco Mendes</span> and I’m the proud owner
+              <span class="font-bold no-underline hover:underline">Francisco Mendes</span> and I’m the proud owner
               of an overactive imagination and curious mind.
             </h1>
           </div>
@@ -123,7 +123,7 @@
               class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
               I will help you to
-              <span class="underline">accomplish your goals</span>.
+              <span class="underline font-bold">accomplish your goals</span>.
             </h1>
           </div>
         </div>

@@ -9,14 +9,14 @@
     <!-- Project Header -->
     <section>
       <div class="container mx-auto">
-        <div class="flex flex-auto justify-evenly py-24">
-          <div class="w-1/5">
+        <div class="grid grid-cols-1 md:grid-cols-12 px-10 md:px-0 py-24 gap-12">
+          <div class="col-span-2">
             <h1 class="font-bold tracking-wide text-xl mb-4 text-center">Year</h1>
             <p
               class="tracking-wide leading-loose text-md font-normal text-gray-700 text-center"
             >2020</p>
           </div>
-          <div class="w-1/5">
+          <div class="col-span-2">
             <h1 class="font-bold tracking-wide text-xl mb-4">Tech Stack</h1>
             <ul
               v-for="tech in project.tech_stack"
@@ -26,8 +26,8 @@
               <li>{{ tech.name }}</li>
             </ul>
           </div>
-          <div class="w-3/5">
-            <h1 class="font-bold tracking-wide text-3xl">{{ project.project_name }}</h1>
+          <div class="col-span-8">
+            <h1 class="font-bold tracking-wide text-4xl">{{ project.project_name }}</h1>
             <p
               class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700"
             >{{ project.first_paragraph }}</p>
@@ -51,13 +51,13 @@
     <!-- First topic -->
     <section class="bg-gray-200">
       <div class="container mx-auto">
-        <div class="flex flex-auto justify-evenly py-20">
-          <div class="w-2/5">
+        <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20">
+          <div>
             <h1
               class="font-bold tracking-wide text-4xl leading-relaxed"
             >{{ project.first_topic_title }}</h1>
           </div>
-          <div class="w-2/5">
+          <div>
             <p
               class="tracking-wide leading-loose text-md font-normal text-gray-700"
             >{{ project.first_topic_body }}</p>
@@ -82,13 +82,13 @@
     <!-- Second topic -->
     <section class="bg-gray-200">
       <div class="container mx-auto">
-        <div class="flex flex-auto justify-evenly py-20">
-          <div class="w-2/5">
+        <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20">
+          <div>
             <h1
               class="font-bold tracking-wide text-4xl leading-relaxed"
             >{{ project.second_topic_title }}</h1>
           </div>
-          <div class="w-2/5">
+          <div>
             <p
               class="tracking-wide leading-loose text-md font-normal text-gray-700"
             >{{ project.second_topic_body }}</p>
