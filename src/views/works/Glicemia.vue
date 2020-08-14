@@ -10,7 +10,13 @@
     <section>
       <div class="container mx-auto">
         <div class="flex flex-auto justify-evenly py-24">
-          <div class="w-2/5">
+          <div class="w-1/5">
+            <h1 class="font-bold tracking-wide text-xl mb-4 text-center">Year</h1>
+            <p
+              class="tracking-wide leading-loose text-md font-normal text-gray-700 text-center"
+            >2020</p>
+          </div>
+          <div class="w-1/5">
             <h1 class="font-bold tracking-wide text-xl mb-4">Tech Stack</h1>
             <ul
               v-for="tech in project.tech_stack"
@@ -20,13 +26,13 @@
               <li>{{ tech.name }}</li>
             </ul>
           </div>
-          <div class="w-2/5">
+          <div class="w-3/5">
             <h1 class="font-bold tracking-wide text-3xl">{{ project.project_name }}</h1>
             <p
               class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700"
             >{{ project.first_paragraph }}</p>
             <p
-              class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700 mb-8"
+              class="tracking-wide leading-loose text-md font-normal mt-4 text-gray-700 mb-12"
             >{{ project.second_paragraph }}</p>
             <a
               :href="launch_project.href"
