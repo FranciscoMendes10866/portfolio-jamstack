@@ -59,8 +59,20 @@
         </div>
       </div>
     </section>
-    <!-- Second Image -->
-    <section class="bg-cover py-64" :style="project.second_image"></section>
+    <!-- Screenshots -->
+    <section>
+      <div class="container mx-auto">
+        <div class="py-12">
+          <img
+            v-for="screenshot in screenshots"
+            :key="screenshot.id"
+            class="object-cover w-full"
+            v-lazy="screenshot.src"
+            :alt="screenshot.alt"
+          />
+        </div>
+      </div>
+    </section>
     <!-- Second topic -->
     <section class="bg-gray-200">
       <div class="container mx-auto">
@@ -156,7 +168,24 @@ export default {
       },
       launch_project: {
         href: 'https://mr-glicemia.vercel.app'
-      }
+      },
+      screenshots: [
+        {
+          id: 1,
+          src: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597419679/nuxt-portfolio/glicemia/Screenshot_2020-08-14_ts-frontend_jogdzi.png',
+          alt: 'Home page'
+        },
+        {
+          id: 2,
+          src: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597420233/nuxt-portfolio/glicemia/Screenshot_2020-08-14_ts-frontend_b3maas.png',
+          alt: 'Sign Up page'
+        },
+        {
+          id: 3,
+          src: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597420233/nuxt-portfolio/glicemia/Screenshot_2020-08-14_ts-frontend_1_cp7iyx.png',
+          alt: 'Sign In page'
+        }
+      ]
     }
   }
 }

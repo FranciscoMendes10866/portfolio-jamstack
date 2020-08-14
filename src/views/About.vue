@@ -22,7 +22,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
             class="object-cover w-full -mt-40 md:-mt-64 p-4 md:p-0"
-            src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1594059634/nuxt-portfolio/me_j2astx.png"
+            v-lazy="img"
             alt="Profile Picture"
           />
         </div>
@@ -133,7 +133,9 @@
           <div>
             <h1
               data-aos="fade-up"
-              data-aos-duration="500" class="ml-4 md:ml0 text-2xl md:text-4xl font-bold tracking-wide">Network</h1>
+              data-aos-duration="500"
+              class="ml-4 md:ml0 text-2xl md:text-4xl font-bold tracking-wide"
+            >Network</h1>
           </div>
           <div>
             <p
@@ -146,7 +148,9 @@
             </p>
             <p
               data-aos="fade-up"
-              data-aos-duration="700" class="mt-8 ml-4 md:ml0 text-md md:text-lg font-normal tracking-wide leading-loose">
+              data-aos-duration="700"
+              class="mt-8 ml-4 md:ml0 text-md md:text-lg font-normal tracking-wide leading-loose"
+            >
               <a
                 class="text-black font-bold"
                 href="https://www.instagram.com/francisco.morais.mendes/"
@@ -166,5 +170,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data: () => {
+    return {
+      img: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1594059634/nuxt-portfolio/me_j2astx.png'
+    }
+  }
+}
 </script>
