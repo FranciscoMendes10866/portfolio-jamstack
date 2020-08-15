@@ -156,8 +156,6 @@
         </div>
       </div>
     </section>
-    <!-- Second Image -->
-    <section class="bg-cover py-64" :style="project.bg_img.second_image"></section>
     <!-- Next/Previous Project -->
     <section class="bg-gray-50">
       <div class="container mx-auto">

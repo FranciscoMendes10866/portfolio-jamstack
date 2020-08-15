@@ -129,8 +129,7 @@ export default {
           }
         ],
         bg_img: {
-          first_image: 'background-image: url(https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png)',
-          second_image: 'background-image: url(https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png)'
+          first_image: 'background-image: url(https://res.cloudinary.com/dj5iihhqv/image/upload/v1597526205/nuxt-portfolio/glicemia/Frame_1_l3dfsd.png)'
         }
       }
     }
