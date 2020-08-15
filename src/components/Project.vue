@@ -40,7 +40,7 @@
             <a
               :href="project.launch_project.href"
               target="blank"
-              class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-gray-400 hover:border-gray-600 bg-white hover:bg-gray-600 text-black hover:text-white"
+              class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-black bg-transparent hover:bg-black text-black hover:text-white"
             >
               Visit website&nbsp;&nbsp;
               <ion-icon name="open-outline" />
@@ -62,8 +62,16 @@
           </div>
           <div>
             <p
-              class="tracking-wide leading-loose text-md font-normal text-gray-700"
+              class="tracking-wide leading-loose text-md font-normal text-gray-700 mb-12"
             >{{ project.headers.first_topic.body }}</p>
+            <a
+              :href="project.launch_project.figma_link"
+              target="blank"
+              class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-black bg-transparent hover:bg-black text-black hover:text-white"
+            >
+              Figma link&nbsp;&nbsp;
+              <ion-icon name="open-outline" />
+            </a>
           </div>
         </div>
       </div>
@@ -93,8 +101,16 @@
           </div>
           <div>
             <p
-              class="tracking-wide leading-loose text-md font-normal text-gray-700"
+              class="tracking-wide leading-loose text-md font-normal text-gray-700 mb-12"
             >{{ project.headers.second_topic.body }}</p>
+            <a
+              :href="project.launch_project.source_code"
+              target="blank"
+              class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-black bg-transparent hover:bg-black text-black hover:text-white"
+            >
+              Source code&nbsp;&nbsp;
+              <ion-icon name="open-outline" />
+            </a>
           </div>
         </div>
       </div>

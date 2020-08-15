@@ -36,7 +36,7 @@
           </div>
           <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
             <button
-              class="transition duration-100 ease-in-out px-4 py-2 border-solid border-2 border-gray-400 hover:border-gray-600 bg-white hover:bg-gray-600 text-black hover:text-white"
+              class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-black bg-transparent hover:bg-black text-black hover:text-white"
             >
               Download CV&nbsp;&nbsp;
               <ion-icon name="download-outline" />

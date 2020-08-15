@@ -68,7 +68,9 @@ export default {
           next: '/works/illery'
         },
         launch_project: {
-          href: 'https://mr-glicemia.vercel.app'
+          href: 'https://mr-glicemia.vercel.app',
+          figma_link: 'https://www.figma.com/file/Cbz124yaByxPXyvJ1A27t9/Mr-Glicemia?node-id=0%3A1',
+          source_code: 'https://github.com/FranciscoMendes10866/mrGlicemiaFrontend'
         },
         screenshots_design: [
           {
