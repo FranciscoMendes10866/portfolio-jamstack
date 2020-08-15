@@ -1,5 +1,9 @@
 <template>
   <div>
+    <!-- Progress bar -->
+    <div class="progress-container fixed top-0">
+      <div class="progress-bar" id="progress_bar"></div>
+    </div>
     <!-- Back arrow link -->
     <div class="fixed ml-2 md:ml-8 mt-8 md:mt-8">
       <router-link to="/works">
@@ -185,6 +189,15 @@
 </template>
 
 <script>
+// Progress bar scroll function
+window.onscroll = function () { scroll() }
+function scroll () {
+  const winScroll = document.body.scrollTop || document.documentElement.scrollTop
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight
+  const scrolled = (winScroll / height) * 100
+  document.querySelector('#progress_bar').style.width = scrolled + '%'
+}
+// Export function
 export default {
   props: ['project']
 }
