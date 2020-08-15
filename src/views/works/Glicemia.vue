@@ -16,30 +16,38 @@ export default {
         tech_stack: [
           {
             id: 1,
-            name: 'Vue.js'
+            name: 'Vue'
           },
           {
             id: 2,
-            name: 'Express.js'
+            name: 'Vuex'
           },
           {
             id: 3,
-            name: 'Prisma'
+            name: 'Tailwind'
           },
           {
             id: 4,
-            name: 'Cloudinary'
+            name: 'Express'
           },
           {
             id: 5,
-            name: 'PostgreSQL'
+            name: 'Prisma'
           },
           {
             id: 6,
-            name: 'Heroku'
+            name: 'PostgreSQL'
           },
           {
             id: 7,
+            name: 'Cloudinary'
+          },
+          {
+            id: 8,
+            name: 'Heroku'
+          },
+          {
+            id: 9,
             name: 'Vercel'
           }
         ],
