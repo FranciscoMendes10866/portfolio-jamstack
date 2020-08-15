@@ -24,30 +24,34 @@ export default {
           },
           {
             id: 3,
-            name: 'Tailwind'
+            name: 'Axios'
           },
           {
             id: 4,
-            name: 'Express'
+            name: 'Tailwind'
           },
           {
             id: 5,
-            name: 'Prisma'
+            name: 'Express'
           },
           {
             id: 6,
-            name: 'PostgreSQL'
+            name: 'Prisma'
           },
           {
             id: 7,
-            name: 'Cloudinary'
+            name: 'PostgreSQL'
           },
           {
             id: 8,
-            name: 'Heroku'
+            name: 'Cloudinary'
           },
           {
             id: 9,
+            name: 'Heroku'
+          },
+          {
+            id: 10,
             name: 'Vercel'
           }
         ],
