@@ -3,7 +3,10 @@
     <!-- Back arrow link -->
     <div class="fixed ml-12 mt-8">
       <router-link to="/works">
-        <ion-icon class="font-bold text-2xl text-gray-700" name="arrow-back-outline" />
+        <ion-icon
+          class="transform scale-100 hover:scale-150 transition duration-150 ease-in-out font-bold text-2xl text-gray-700"
+          name="arrow-back-outline"
+        />
       </router-link>
     </div>
     <!-- Project Header -->
@@ -11,9 +14,9 @@
       <div class="container mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-11 px-10 md:px-0 py-24 gap-12">
           <div class="col-span-2">
-            <h1 class="font-bold tracking-wide text-md mb-4 text-center">Year</h1>
+            <h1 class="font-bold tracking-wide text-md mb-4 text-left sm:text-center">Year</h1>
             <p
-              class="tracking-wide leading-loose text-sm font-normal text-gray-700 text-center"
+              class="tracking-wide leading-loose text-sm font-normal text-gray-700 text-left sm:text-center"
             >2020</p>
           </div>
           <div class="col-span-2">
@@ -37,7 +40,7 @@
             <a
               :href="launch_project.href"
               target="blank"
-              class="transition duration-100 ease-in-out px-4 py-2 border-solid border-2 border-gray-400 hover:border-gray-600 bg-white hover:bg-gray-600 text-black hover:text-white"
+              class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-gray-400 hover:border-gray-600 bg-white hover:bg-gray-600 text-black hover:text-white"
             >
               Visit website&nbsp;&nbsp;
               <ion-icon name="open-outline" />
@@ -54,7 +57,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20">
           <div>
             <h1
-              class="font-bold tracking-wide text-4xl leading-relaxed"
+              class="font-bold tracking-wide text-4xl leading-relaxed mb-6 md:mb-0"
             >{{ project.first_topic_title }}</h1>
           </div>
           <div>
@@ -68,7 +71,7 @@
     <!-- Screenshots -->
     <section class="bg-gray-100">
       <div class="container mx-auto">
-        <div class="py-12">
+        <div class="py-12 px-10 md:px-0">
           <img
             v-for="screenshot in screenshots"
             :key="screenshot.id"
@@ -85,7 +88,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20">
           <div>
             <h1
-              class="font-bold tracking-wide text-4xl leading-relaxed"
+              class="font-bold tracking-wide text-4xl leading-relaxed mb-6 md:mb-0"
             >{{ project.second_topic_title }}</h1>
           </div>
           <div>
@@ -151,10 +154,14 @@ export default {
           },
           {
             id: 5,
-            name: 'Heroku'
+            name: 'PostgreSQL'
           },
           {
             id: 6,
+            name: 'Heroku'
+          },
+          {
+            id: 7,
             name: 'Vercel'
           }
         ],
