@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- Back arrow link -->
-    <div class="fixed ml-12 mt-8">
+    <div class="fixed ml-2 md:ml-8 mt-8 md:mt-8">
       <router-link to="/works">
         <ion-icon
-          class="transform scale-100 hover:scale-150 transition duration-150 ease-in-out font-bold text-2xl text-gray-700"
+          class="transform scale-90 md:scale-100 hover:scale-150 transition duration-150 ease-in-out font-bold text-2xl text-gray-700"
           name="arrow-back-outline"
         />
       </router-link>
