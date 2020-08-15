@@ -50,7 +50,7 @@
       </div>
     </section>
     <!-- First Image -->
-    <section class="bg-cover bg-center py-56" :style="project.bg_img.first_image"></section>
+    <section class="bg-cover bg-center py-32 md:py-56" :style="project.bg_img.first_image"></section>
     <!-- First topic -->
     <section class="bg-gray-200">
       <div class="container mx-auto">
