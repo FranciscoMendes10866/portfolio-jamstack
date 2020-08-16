@@ -1,14 +1,14 @@
 <template>
   <div class="index">
     <!-- Hero Section -->
-    <section class="bg-white py-40 md:py-64">
-      <div class="container mx-auto">
+    <section class="bg-white py-40 md:py-56">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1">
           <div>
             <h1
               data-aos="fade-up"
               data-aos-duration="500"
-              class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
+              class="ml-4 md:ml-0 text-left xl:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
               My name is
               <span class="font-bold no-underline hover:underline">Francisco Mendes</span> and I’m the proud owner
@@ -20,7 +20,7 @@
     </section>
     <!-- Front-end Section -->
     <section class="bg-gray-300 py-32">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
             <h1
@@ -67,7 +67,7 @@
     </section>
     <!-- Back-end Section -->
     <section class="bg-gray-200 py-32">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
             <h1
@@ -114,7 +114,7 @@
     </section>
     <!-- Know More Section -->
     <section class="bg-white py-48">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1">
           <div>
             <h1

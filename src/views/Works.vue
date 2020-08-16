@@ -2,13 +2,13 @@
   <div class="index">
     <!-- Hero Section -->
     <section class="bg-white py-40 md:py-48">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1">
           <div>
             <h1
               data-aos="fade-up"
               data-aos-duration="500"
-              class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide leading-loose font-bold"
+              class="font-bold ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >Made with meaning.</h1>
             <h2
               data-aos="fade-up"
@@ -27,7 +27,7 @@
     <Portfolio />
     <!-- Work Section -->
     <section class="bg-gray-50 pt-40 md:pt-64">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
             <h1

@@ -15,7 +15,7 @@
     </div>
     <!-- Project Header -->
     <section>
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-11 px-10 md:px-0 py-24 gap-12">
           <div class="col-span-2">
             <h1 class="font-bold tracking-wide text-md mb-4 text-left sm:text-center">Year</h1>
@@ -57,7 +57,7 @@
     <section class="bg-cover bg-center py-32 md:py-56" :style="project.bg_img.first_image"></section>
     <!-- First topic -->
     <section class="bg-gray-200">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20">
           <div>
             <h1
@@ -82,7 +82,7 @@
     </section>
     <!-- Screenshots -->
     <section class="bg-gray-100">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="py-12 px-10 md:px-0">
           <img
             v-for="screenshot in project.screenshots_design"
@@ -96,7 +96,7 @@
     </section>
     <!-- Second topic -->
     <section class="bg-gray-200">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20">
           <div>
             <h1
@@ -121,7 +121,7 @@
     </section>
     <!-- Screenshots -->
     <section class="bg-gray-100">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="py-12 px-10 md:px-0">
           <img
             v-for="screenshot in project.screenshots_implementation"
@@ -135,7 +135,7 @@
     </section>
     <!-- Third topic -->
     <section class="bg-gray-200">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2 px-10 md:px-0 py-20 gap-10">
           <div>
             <h1
@@ -162,7 +162,7 @@
     </section>
     <!-- Next/Previous Project -->
     <section class="bg-gray-50">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="flex flex-auto justify-evenly pt-32 pb-10 text-center align-center">
           <div class="w-1/5 self-center">
             <router-link :to="project.routing.previous">

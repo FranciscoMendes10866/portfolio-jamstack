@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="bg-white">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1">
           <div v-for="project in projects" :key="project.id" class="mt-10 md:mt-32">
             <router-link :to="project.to">

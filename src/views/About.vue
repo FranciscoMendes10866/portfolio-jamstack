@@ -1,14 +1,14 @@
 <template>
   <div class="index">
     <!-- Hero Section -->
-    <section class="bg-white py-40 md:py-64">
-      <div class="container mx-auto">
+    <section class="bg-white py-40 md:py-56">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1">
           <div>
             <h1
               data-aos="fade-up"
               data-aos-duration="500"
-              class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide leading-loose"
+              class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >“When you work hard for something, all the universe conspires in helping you to achieve it.”</h1>
           </div>
         </div>
@@ -16,7 +16,7 @@
     </section>
     <!-- Profile Section -->
     <section class="bg-gray-300 py-20 md:py-32">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div>
           <img
             data-aos="fade-up"
@@ -68,7 +68,7 @@
     </section>
     <!-- Tech stack Section -->
     <section class="bg-gray-200 py-20 md:py-32">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
             <h1
@@ -128,7 +128,7 @@
     </section>
     <!-- Network Section -->
     <section class="bg-white py-16 md:py-20">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
             <h1

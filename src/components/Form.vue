@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="bg-white py-32">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
         <div class="grid grid-cols-1 md:grid-cols-2">
           <div>
             <h1
