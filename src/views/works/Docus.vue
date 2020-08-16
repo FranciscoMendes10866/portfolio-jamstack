@@ -36,22 +36,18 @@ export default {
           },
           {
             id: 6,
-            name: 'mongoose'
+            name: 'Mongoose ODM'
           },
           {
             id: 7,
-            name: 'MongoDB'
-          },
-          {
-            id: 8,
             name: 'MongoDB Atlas'
           },
           {
-            id: 9,
+            id: 8,
             name: 'Heroku'
           },
           {
-            id: 10,
+            id: 9,
             name: 'Vercel'
           }
         ],
