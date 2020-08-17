@@ -5,7 +5,7 @@
       <div class="progress-bar" id="progress_bar"></div>
     </div>
     <!-- Back arrow link -->
-    <div class="fixed ml-2 md:ml-8 mt-8 md:mt-8">
+    <div class="fixed ml-2 md:ml-16 mt-8 md:mt-8">
       <router-link to="/works">
         <ion-icon
           class="transform scale-90 md:scale-100 hover:scale-150 transition duration-150 ease-in-out font-bold text-2xl text-gray-700"
@@ -13,6 +13,16 @@
         />
       </router-link>
     </div>
+    <!-- Top arrow link -->
+    <span id="top"></span>
+    <div
+      class="back-top transform -translate-y-0 hover:-translate-y-3 transition duration-300 ease-in-out right-0 bottom-0 fixed mr-12 mb-12 bg-black text-white p-2"
+    >
+      <a href="#top">
+        <ion-icon class="font-bold text-2xl" name="arrow-up-outline" />
+      </a>
+    </div>
+    <!-- Page Content -->
     <!-- Project Header -->
     <section>
       <div class="container mx-auto px-0 lg:px-24 xl:px-32">
@@ -189,13 +199,23 @@
 </template>
 
 <script>
+// Document onScroll functions
+window.onscroll = function () { scroll(); anchorFunction() }
 // Progress bar scroll function
-window.onscroll = function () { scroll() }
 function scroll () {
   const winScroll = document.body.scrollTop || document.documentElement.scrollTop
   const height = document.documentElement.scrollHeight - document.documentElement.clientHeight
   const scrolled = (winScroll / height) * 100
   document.querySelector('#progress_bar').style.width = scrolled + '%'
+}
+// Back to top - Anchor
+// When the user scrolls down 20px from the top of the document, show the anchor
+function anchorFunction () {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.querySelector('.back-top').style.display = 'block'
+  } else {
+    document.querySelector('.back-top').style.display = 'none'
+  }
 }
 // Export function
 export default {

@@ -29,11 +29,17 @@
 **/
 .progress-container {
   width: 100%;
-  height: 7px;
+  height: 5px;
   background: transparent;
 }
 .progress-bar {
-  height: 7px;
+  height: 5px;
   background: #1a202c;
   width: 0%;
+}
+/**
+* Back to top anchor
+**/
+.back-top {
+  display: none;
 }
