@@ -8,7 +8,7 @@
     <div class="fixed ml-2 md:ml-16 mt-8 md:mt-8">
       <router-link to="/works">
         <ion-icon
-          class="transform scale-90 md:scale-100 hover:scale-150 transition duration-150 ease-in-out font-bold text-2xl text-gray-700"
+          class="transform scale-90 md:scale-100 hover:scale-150 transition duration-150 ease-in-out font-bold text-2xl text-black"
           name="arrow-back-outline"
         />
       </router-link>
@@ -16,7 +16,7 @@
     <!-- Top arrow link -->
     <span id="top"></span>
     <div
-      class="back-top transform -translate-y-0 hover:-translate-y-3 transition duration-300 ease-in-out right-0 bottom-0 fixed mr-12 mb-12 bg-black text-white p-2"
+      class="back-top transform -translate-y-0 hover:-translate-y-3 transition duration-300 ease-in-out right-0 bottom-0 fixed mr-4 md:mr-12 mb-4 md:mb-12 bg-black text-white p-2"
     >
       <a href="#top">
         <ion-icon class="font-bold text-2xl" name="arrow-up-outline" />
@@ -217,7 +217,7 @@ function anchorFunction () {
     document.querySelector('.back-top').style.display = 'none'
   }
 }
-// Export function
+// Document xport
 export default {
   props: ['project']
 }
