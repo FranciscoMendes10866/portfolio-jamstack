@@ -8,7 +8,7 @@
               <div class="text-transparent hover:text-gray-800">
                 <img class="z-0 p-10 object-cover w-full" :src="project.thumb" :alt="project.alt" />
                 <h1
-                  class="underline ml-16 md:ml-24 text-left text-2xl md:text-4xl lg:text-5xl z-20 -mt-32 md:-mt-48 lg:-mt-64"
+                  class="underline ml-16 md:ml-24 text-left text-2xl md:text-4xl lg:text-5xl z-20 -mt-32 md:-mt-48 lg:-mt-64 font-bold"
                 >{{ project.title }}</h1>
                 <h2
                   class="ml-16 md:ml-24 text-left text-xs md:text-lg z-10 mt-2 md:mt-4"
@@ -37,7 +37,7 @@ export default {
           title: 'Mr. Glicémia',
           desc: 'An app for diabetic people.',
           to: '/works/glicemia',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597949367/nuxt-portfolio/glicemia/glicemia_dufpqj.png',
           alt: 'Glicemia app image'
         },
         {
@@ -45,7 +45,7 @@ export default {
           title: 'Illery events',
           desc: 'An app to share multimedia events..',
           to: '/works/illery',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597951599/nuxt-portfolio/illery/illery_qnzfi4.png',
           alt: 'Illery app image'
         },
         {
@@ -53,7 +53,7 @@ export default {
           title: 'Juliana PT',
           desc: 'An app for a personal trainer.',
           to: '/works/juliana',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597957662/nuxt-portfolio/julianamoraispt/juliana_qltdvf.png',
           alt: 'Juliana Personal Trainer app image'
         },
         {
@@ -61,7 +61,7 @@ export default {
           title: 'Docus',
           desc: 'An app to share links.',
           to: '/works/docus',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597953227/nuxt-portfolio/docus/docus_t9rrsy.png',
           alt: 'Docus app image'
         },
         {
@@ -69,7 +69,7 @@ export default {
           title: 'Note it!',
           desc: 'A todo-list app',
           to: '/works/noteit',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597959296/nuxt-portfolio/noteit/noteit_qqxl8x.png',
           alt: 'Note it app image'
         },
         {
@@ -77,7 +77,7 @@ export default {
           title: 'Locise',
           desc: 'A link-based app',
           to: '/works/locise',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597961372/nuxt-portfolio/locise/locise_ac7cqy.png',
           alt: 'Locise app image'
         },
         {
@@ -85,7 +85,7 @@ export default {
           title: 'Minary',
           desc: 'A blog app',
           to: '/works/minary',
-          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1593900528/glicemiaLandingPage/image_bkwduh.png',
+          thumb: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1597955742/nuxt-portfolio/minary/minary_aes35c.png',
           alt: 'Minary app image'
         }
       ]
