@@ -36,23 +36,21 @@ export default {
           }
         ],
         description: {
-          first_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-          second_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+          first_paragraph: 'Locise is a personal application that was created in order to have a personal page with important links.',
+          second_paragraph: 'The fundamental idea was to create a page that aggregates these same important links so that it can be used on the most diverse digital platforms to help people know how to access my work, personal pages, etc.'
         },
         headers: {
           first_topic: {
             title: 'Design.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'The design is very similar to the Docus project dashboard. Although this is a project with a simple design, small animations on hover were added and it was guaranteed that it also works properly on all devices.'
           },
           second_topic: {
             title: 'Implementation.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'The project is not powered by a graphql api created by me. I used a CMS called GraphCMS that has an intuitive and simple to use interface. Which matches this same project.'
           },
           third_topic: {
             title: 'Challenges.',
-            first_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            second_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            third_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            first_body: 'The main challenge was to use the Apollo library to create a client and query the CMS. Although this sounds simple, it was very difficult for me because what I had used previously was @ nuxtjs / apollo which makes the whole configuration simple in Nuxt.js while in Vue I needed to have more knowledge.'
           }
         },
         routing: {

@@ -48,23 +48,23 @@ export default {
           }
         ],
         description: {
-          first_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-          second_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+          first_paragraph: 'Note it is a to-do app like many others found in sandboxes or tutorials on youtube. The only thing that differs from its functionality is the dynamic way of choosing the tasks for each project.',
+          second_paragraph: 'Normally, we see all the things we have to do, after that we can define whether it was completed or not. However, the way Note it works is that the user only sees tasks that are associated with a single project.'
         },
         headers: {
           first_topic: {
             title: 'Design.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'In the scope of the application design, all of it is simple, which facilitated the consistency and the whole visual aspect of the application was the use of the Vuesax UI Library, which holds a huge amount of beautiful and easy to work with components.'
           },
           second_topic: {
             title: 'Implementation.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'The interesting thing is that it was with this project that I had the courage to dive into the world of backend. It was in this same project that I developed my first api and the framework used was AdonisJS which, unlike Express.js, is a complete framework, easy and quick to work with. Not to mention that it brings opinion to the table, which was all I needed since I was new.'
           },
           third_topic: {
             title: 'Challenges.',
-            first_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            second_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            third_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            first_body: 'One of my first challenges was to understand how Lucid ORM worked, but with a light reading in the documentation I was able to understand how to make queries in the database.',
+            second_body: 'Another challenge was the use of a UI Library, the only frameworks I had used so far were Bootstrap and Bulma. And Vuesax in comparison to a UI Library like Vuetify has less information on the internet due to the difference in popularity.',
+            third_body: 'Last but not least, it was in this project that I had the courage to learn Vuex. Up to this point, I have always been afraid of the complexity of developing a common state. Still, this was also the first project in which I used Axios to make HTTP requests from the client to the backend.'
           }
         },
         routing: {
