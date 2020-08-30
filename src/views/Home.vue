@@ -38,12 +38,12 @@
             >
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="500">
-                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Tailwind CSS
+                  <ion-icon name="logo-html5" />&nbsp;&nbsp;HTML5
                 </h1>
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="600">
-                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Bulma CSS
+                  <ion-icon name="logo-css3" />&nbsp;&nbsp;CSS3
                 </h1>
               </div>
             </div>
@@ -52,12 +52,12 @@
             >
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="700">
-                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Vuetify
+                  <ion-icon name="logo-javascript" />&nbsp;&nbsp;ES6
                 </h1>
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="800">
-                  <ion-icon name="logo-css3" />&nbsp;&nbsp;Vuesax
+                  <ion-icon name="logo-vue" />&nbsp;&nbsp;Vue
                 </h1>
               </div>
             </div>
@@ -79,7 +79,7 @@
             <p
               class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-4 md:mt-0"
               data-aos="fade-up"
-            >I love the world of Node.js and since the very first API that a built, I haven't stopped coding.</p>
+            >I love the world of Node.js and since the very first API, I haven't stopped coding.</p>
             <div
               class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
             >
@@ -99,12 +99,12 @@
             >
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="700">
-                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Sequelize ORM
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Prisma
                 </h1>
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="800">
-                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Prisma
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Json Web Tokens
                 </h1>
               </div>
             </div>

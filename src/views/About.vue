@@ -111,14 +111,14 @@
             <div
               class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
             >
-              <div>
-                <h1 data-aos="fade-up" data-aos-duration="700">
-                  <ion-icon name="server-outline" />&nbsp;&nbsp;Postgres
+            <div>
+                <h1 data-aos="fade-up" data-aos-duration="800">
+                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Prisma
                 </h1>
               </div>
               <div>
-                <h1 data-aos="fade-up" data-aos-duration="800">
-                  <ion-icon name="cloudy-outline" />&nbsp;&nbsp;Heroku
+                <h1 data-aos="fade-up" data-aos-duration="700">
+                  <ion-icon name="server-outline" />&nbsp;&nbsp;PostgreSQL
                 </h1>
               </div>
             </div>
@@ -152,12 +152,12 @@
               class="mt-8 ml-4 md:ml0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
               <a
-                class="text-black font-bold"
+                class="text-black no-underline hover:underline font-bold"
                 href="https://www.instagram.com/francisco.morais.mendes/"
                 target="blank"
               >Instagram</a> and
               <a
-                class="text-black font-bold"
+                class="text-black no-underline hover:underline font-bold"
                 href="https://github.com/FranciscoMendes10866"
                 target="blank"
               >Github</a>.

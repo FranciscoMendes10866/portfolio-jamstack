@@ -48,7 +48,7 @@
               data-aos-duration="800"
               class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
-              <a href class="font-bold">franciscomendes@gmail.com</a>.
+              <a href class="font-bold">franciscomendes@gmail.com</a>
             </p>
           </div>
         </div>
@@ -88,12 +88,12 @@
               class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
               <a
-                class="text-black font-bold"
+                class="text-black no-underline hover:underline font-bold"
                 href="https://www.instagram.com/francisco.morais.mendes/"
                 target="blank"
               >Instagram</a> and
               <a
-                class="text-black font-bold"
+                class="text-black no-underline hover:underline font-bold"
                 href="https://github.com/FranciscoMendes10866"
                 target="blank"
               >Github</a>.
