@@ -11,7 +11,7 @@
               class="ml-4 md:ml-0 text-left xl:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
               My name is
-              <span class="font-bold no-underline hover:underline">Francisco Mendes</span> and I’m the proud owner
+              <span class="font-bold">Francisco Mendes</span> and I’m the proud owner
               of an overactive imagination and curious mind.
             </h1>
           </div>
@@ -43,7 +43,7 @@
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="600">
-                  <ion-icon name="logo-css3" />&nbsp;&nbsp;CSS3
+                  <ion-icon name="logo-css3" />&nbsp;&nbsp;(S)CSS
                 </h1>
               </div>
             </div>
@@ -52,12 +52,12 @@
             >
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="700">
-                  <ion-icon name="logo-javascript" />&nbsp;&nbsp;ES6
+                  <ion-icon name="logo-javascript" />&nbsp;&nbsp;ES6(M)
                 </h1>
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="800">
-                  <ion-icon name="logo-vue" />&nbsp;&nbsp;Vue
+                  <ion-icon name="logo-vue" />&nbsp;&nbsp;Vue(x)
                 </h1>
               </div>
             </div>
@@ -123,7 +123,7 @@
               class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
               I will help you to
-              <span class="underline font-bold">accomplish your goals</span>.
+              <span class="font-bold">accomplish your goals</span>.
             </h1>
           </div>
         </div>

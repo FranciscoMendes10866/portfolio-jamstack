@@ -16,23 +16,50 @@
           </div>
           <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
             <h6 class="tracking-wide text-md text-gray-600 font-bold">Pages</h6>
-            <router-link to="/" class="tracking-wide text-sm text-gray-600">Home</router-link>
+            <router-link to="/" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">Home</router-link>
             <br />
-            <router-link to="/about" class="tracking-wide text-sm text-gray-600">About</router-link>
+            <router-link to="/about" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">About</router-link>
             <br />
-            <router-link to="/" class="tracking-wide text-sm text-gray-600">Works</router-link>
+            <router-link to="/" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">Works</router-link>
             <br />
-            <router-link to="/contact" class="tracking-wide text-sm text-gray-600">Contact</router-link>
+            <router-link to="/contact" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">Contact</router-link>
           </div>
           <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
             <h6 class="tracking-wide text-md text-gray-600 font-bold">Works</h6>
-            <router-link to="/" class="tracking-wide text-sm text-gray-600">Juliana Morais PT</router-link>
+            <router-link
+              to="/works/Minary"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Minary</router-link>
             <br />
-            <router-link to="/" class="tracking-wide text-sm text-gray-600">Note it!</router-link>
+            <router-link
+              to="/works/glicemia"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Mr Glicemia</router-link>
             <br />
-            <router-link to="/" class="tracking-wide text-sm text-gray-600">Illery Events</router-link>
+            <router-link
+              to="/works/juliana"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Juliana Morais PT</router-link>
             <br />
-            <router-link to="/" class="tracking-wide text-sm text-gray-600">Mr Glicemia</router-link>
+            <router-link
+              to="/works/illery"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Illery Events</router-link>
+            <br />
+            <router-link
+              to="/works/noteit"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Note it!</router-link>
+            <br />
+            <router-link
+              to="/works/docus"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Docus</router-link>
+            <br />
+            <router-link
+              to="/works/locise"
+              class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
+            >Locise</router-link>
           </div>
           <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
             <button
