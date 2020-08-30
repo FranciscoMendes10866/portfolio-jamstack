@@ -20,14 +20,14 @@
             <br />
             <router-link to="/about" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">About</router-link>
             <br />
-            <router-link to="/" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">Works</router-link>
+            <router-link to="/works" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">Works</router-link>
             <br />
             <router-link to="/contact" class="tracking-wide text-sm text-gray-600 no-underline hover:underline">Contact</router-link>
           </div>
           <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
             <h6 class="tracking-wide text-md text-gray-600 font-bold">Works</h6>
             <router-link
-              to="/works/Minary"
+              to="/works/minary"
               class="tracking-wide text-sm text-gray-600 no-underline hover:underline"
             >Minary</router-link>
             <br />
