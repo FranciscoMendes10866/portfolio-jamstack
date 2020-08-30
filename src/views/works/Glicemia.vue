@@ -56,23 +56,23 @@ export default {
           }
         ],
         description: {
-          first_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-          second_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+          first_paragraph: 'Mr Glicemia allows the creation of profiles accessible from your desktop and mobile phone.',
+          second_paragraph: 'Users who want to store all their blood sugar data anywhere, free of charge and quickly.'
         },
         headers: {
           first_topic: {
             title: 'Design.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'Before creating the application, I decided to make a few sketches where I would define how the website would be structured. The landing page contains basically the tech stack and why was used. The dashboard displays the data inserted by the user, from data related to blood glucose to the user profile.'
           },
           second_topic: {
             title: 'Implementation.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'From the beginning I had the idea of using persisted state, since the platform would work with several json objects. Likewise, if the user leaves the platform, he / she remains logged in on the website. And the user experience is much better.'
           },
           third_topic: {
             title: 'Challenges.',
-            first_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            second_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            third_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            first_body: 'The biggest challenge during the development of this project was the creation of all components of absolute zero. Because until now I had only used component-based css frameworks, however in this project I decided to push my head and understand how things work. However, I used Tailwind CSS to make the website prototyping faster.',
+            second_body: 'Another challenge during the development of this platform was the manipulation of the frontend UI through the use of Vuex state. Undoubtedly it was a lot of fun to be able to create a simple logic that through the data that is sent to the frontend, the UI adjusts.',
+            third_body: 'In the same way that this project was almost the culmination of all the individual projects I had done to date. What I mean by this is that we usually add more dependencies in a single project, or we end up creating a few components with a greater number of lines of code. With this project I learned to reuse code and components.'
           }
         },
         routing: {

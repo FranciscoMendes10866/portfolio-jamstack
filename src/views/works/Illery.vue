@@ -56,23 +56,23 @@ export default {
           }
         ],
         description: {
-          first_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-          second_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+          first_paragraph: 'Sometimes, even close to us, there are events related to areas that we like but have not had any knowledge of.',
+          second_paragraph: 'Therefore, Illery closes that gap, where any user, related to any area of multimedia, can share information related to an event that he knows will happen.'
         },
         headers: {
           first_topic: {
             title: 'Design.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'The main screen contains a brief description of the main areas of event sharing. In the dashboard, the events are organized, in the same way that we can see the information related to each event.'
           },
           second_topic: {
             title: 'Implementation.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'This project was one of my first full stack projects. Many of the terms and practices were unknown to me. In such a way that I used Vuex, to have a common state, but the manipulation of the frontend (for example the navbar when the user is logged in or not) was totally done with booleans. Just like it was the first project where you could upload an image to the backend, which in turn would go to a Cloudinary folder and the path would be stored in the database.'
           },
           third_topic: {
             title: 'Challenges.',
-            first_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            second_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            third_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            first_body: 'As mentioned in the previous topic, this project was crazy for me, but it ended up giving me a huge amount of luggage in all fields, from the frontend to the backend.',
+            second_body: 'One of the main challenges was definitely uploading images. Because I didn\'t want to have something to store the images locally, I already wanted to communicate with an api so that I was already ready for the production environment.',
+            third_body: 'Another challenge in the development of this project was the manipulation of the items present in the navigation bar according to the state of the user\'s session. So, the only thing that came to my mind was the use of booleans according to the login response.'
           }
         },
         routing: {

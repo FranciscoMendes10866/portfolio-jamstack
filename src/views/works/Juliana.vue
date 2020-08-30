@@ -48,23 +48,23 @@ export default {
           }
         ],
         description: {
-          first_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-          second_paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+          first_paragraph: 'Julina Morais PT is a personal website created for a Personal Training professional who needed a complete platform. From online presence, to a dashboard that would help you on a daily basis.',
+          second_paragraph: 'For this, according to your needs, I decided to use the concept of JAMSTACK to facilitate the development of the website added to services that at the same time help the professional.'
         },
         headers: {
           first_topic: {
             title: 'Design.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'In order for the user experience to be the best possible, I decided to use Vuetify which is based on Material Design. This UI Library, reconciled with the Material Design Documentation, established a huge consistency and visual consistency on the website, in the same way that it provides a better navigation experience on the website.'
           },
           second_topic: {
             title: 'Implementation.',
-            body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            body: 'At the time the website development started, I had no knowledge about the development of api\'s in Node.js. So I decided to use Firebase, I ended up loving the service but at the end of the day I prefer to create something from scratch and have total control over it. As well as I used many other services that were basically a way of overcoming, since I was totally new to web development.'
           },
           third_topic: {
             title: 'Challenges.',
-            first_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            second_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.',
-            third_body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra neque a eros molestie, a volutpat quam tristique. Morbi ut laoreet eros, quis accumsan ante.'
+            first_body: 'As mentioned in the previous topic, I chose to use Firebase as a database and the services that were used were Firebase Auth and Firebase Firestore. It turned out to have a great operation with Vuetify. Although Firebase has such detailed docs, it was difficult for me to apply that acquired knowledge and apply it to Nuxt.',
+            second_body: 'Another challenge during the development of the application was the use of graphql with DatoCMS and making the posts dynamic. According to the post that was clicked, a page would open with the content of that post.',
+            third_body: 'My biggest challenge for this project was the implementation of multi language. All articles and tutorials on the internet teach you how to do things with Vue (SPA) and not with Nuxt (SSR). Despite finding some articles on how to implement it in Nuxt, I ended up getting very confused and almost got to give up. But through a snippet on Dev.to I had a little light and spent some hours trying to make it work.'
           }
         },
         routing: {
