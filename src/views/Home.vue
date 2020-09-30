@@ -11,8 +11,8 @@
               class="ml-4 md:ml-0 text-left xl:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
               My name is
-              <span class="font-bold">Francisco Mendes</span> and I’m the proud owner
-              of an overactive imagination and curious mind.
+              <span class="font-bold">Francisco Mendes</span> and I’m the proud
+              owner of an overactive imagination and curious mind.
             </h1>
           </div>
         </div>
@@ -26,13 +26,19 @@
             <h1
               class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide"
               data-aos="fade-up"
-            >Front-end</h1>
+            >
+              Front-end
+            </h1>
           </div>
           <div>
             <p
               class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-4 md:mt-0"
               data-aos="fade-up"
-            >I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+            >
+              I genuinely like to code things from scratch, bringing ideas to
+              life in the browser and I value simple content structure with
+              thoughtful and clean design patterns.
+            </p>
             <div
               class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
             >
@@ -73,24 +79,30 @@
             <h1
               class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide"
               data-aos="fade-up"
-            >Back-end</h1>
+            >
+              Back-end
+            </h1>
           </div>
           <div>
             <p
               class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-4 md:mt-0"
               data-aos="fade-up"
-            >I love the world of Node.js and since the very first API, I haven't stopped coding.</p>
+            >
+              Early on I realized that in order for a site to have life you need
+              to invest time in developing back-end. Since then, I have had a
+              great interest in this area.
+            </p>
             <div
               class="grid grid-cols-2 mt-6 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
             >
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="500">
-                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Node.js
+                  <ion-icon name="code-working-outline" />&nbsp;&nbsp;Node.js
                 </h1>
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="600">
-                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Express.js
+                  <ion-icon name="code-working-outline" />&nbsp;&nbsp;Golang
                 </h1>
               </div>
             </div>
@@ -99,12 +111,13 @@
             >
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="700">
-                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Prisma
+                  <ion-icon name="code-working-outline" />&nbsp;&nbsp;ORM's
                 </h1>
               </div>
               <div>
                 <h1 data-aos="fade-up" data-aos-duration="800">
-                  <ion-icon name="logo-nodejs" />&nbsp;&nbsp;Json Web Tokens
+                  <ion-icon name="code-working-outline" />&nbsp;&nbsp;Json Web
+                  Tokens
                 </h1>
               </div>
             </div>
