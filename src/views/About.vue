@@ -45,7 +45,7 @@
               class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
               Born and raised in the beautiful Portuguese coast. By day I'm a
-              Designer, but by night I'm a massive hard working person.
+              Developer, but by night I'm a massive hard working person.
             </p>
             <p
               data-aos="fade-up"
@@ -86,17 +86,25 @@
               data-aos-duration="500"
               class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
-              In addition to loving design, I also like to make them come true
-              and coding is fascinating.
+              In addition to loving design, I also like to make them a reality
+              and programming makes the whole process fascinating.
             </p>
             <p
               data-aos="fade-up"
               data-aos-duration="600"
               class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-8"
             >
-              I may not be fluent in all of them but I am self-taught and I love
-              to acquire new knowledge. In the same way that I like to deepen
-              the knowledge I have.
+              I have the ambition of one day being able to create pleasant
+              products to use but they are written in a code that can be easily
+              maintained and easy to understand.
+            </p>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              class="ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose mt-8"
+            >
+              I have a self-taught spirit and I am constantly curious and
+              thirsty with the acquisition of new knowledge.
             </p>
             <div
               class="mt-8 grid grid-cols-2 text-gray-600 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide"
