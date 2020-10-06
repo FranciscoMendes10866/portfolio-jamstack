@@ -9,7 +9,9 @@
               data-aos="fade-up"
               data-aos-duration="500"
               class="font-black ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
-            >Let's talk.</h1>
+            >
+              Let's talk.
+            </h1>
           </div>
         </div>
       </div>
@@ -23,7 +25,9 @@
               data-aos="fade-up"
               data-aos-duration="500"
               class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide"
-            >Email</h1>
+            >
+              Email
+            </h1>
           </div>
           <div>
             <p
@@ -31,24 +35,15 @@
               data-aos-duration="600"
               class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
-              Please don't hesitate to get in touch to discuss
-              any possible projects or further information
-              or even just to say hello!
-            </p>
-            <p
-              data-aos="fade-up"
-              data-aos-duration="700"
-              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
-            >
-              You can reach me by filling out the form
-              (down below), or emailing me to:
+              Please don't hesitate to get in touch to discuss any possible
+              projects or further information or even just to say hello!
             </p>
             <p
               data-aos="fade-up"
               data-aos-duration="800"
-              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
+              class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose no-underline hover:underline"
             >
-              <a href class="font-bold">franciscomendes@gmail.com</a>
+              <span class="font-bold">fmendes_dev@protonmail.ch</span>
             </p>
           </div>
         </div>
@@ -63,7 +58,9 @@
               data-aos="fade-up"
               data-aos-duration="500"
               class="ml-4 md:ml-0 text-2xl md:text-4xl font-bold tracking-wide"
-            >Social Media</h1>
+            >
+              Social Media
+            </h1>
           </div>
           <div>
             <p
@@ -71,16 +68,15 @@
               data-aos-duration="600"
               class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
-              You can also contact me on social media, there
-              I love to share some daily tests I do.
+              Feel free to get in touch via instagram if you are looking for a
+              developer, have a question or just want to connect.
             </p>
             <p
               data-aos="fade-up"
               data-aos-duration="700"
               class="mt-8 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
-              Also, you can contact me on my portfolio page,
-              to see my new case studies.
+              You can also follow me on Github where I publish all my small projects.
             </p>
             <p
               data-aos="fade-up"
@@ -91,26 +87,39 @@
                 class="text-black no-underline hover:underline font-bold"
                 href="https://www.instagram.com/francisco.morais.mendes/"
                 target="blank"
-              >Instagram</a> and
+                >Instagram</a
+              >
+              and
               <a
                 class="text-black no-underline hover:underline font-bold"
                 href="https://github.com/FranciscoMendes10866"
                 target="blank"
-              >Github</a>.
+                >Github</a
+              >.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <!-- Contact Form Section -->
-    <Form />
+    <!-- Know More Section -->
+    <section class="bg-white py-48">
+      <div class="container mx-auto px-0 lg:px-24 xl:px-32">
+        <div class="grid grid-cols-1">
+          <div>
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="500"
+              class="font-bold ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
+            >
+              Have a nice day!
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-export default {
-  components: {
-    Form: () => import('../components/Form')
-  }
-}
+export default {}
 </script>

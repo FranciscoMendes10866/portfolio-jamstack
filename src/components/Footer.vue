@@ -79,7 +79,7 @@
               target="blank"
               class="transition duration-150 ease-in-out px-4 py-2 border-solid border-2 border-black bg-transparent hover:bg-black text-black hover:text-white"
             >
-              Download CV&nbsp;&nbsp;
+              Curriculum Vitae&nbsp;&nbsp;
               <ion-icon name="download-outline" />
             </a>
           </div>

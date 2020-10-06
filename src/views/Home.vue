@@ -135,8 +135,8 @@
               data-aos-duration="500"
               class="ml-4 md:ml-0 text-left md:text-center text-2xl md:text-4xl tracking-wide md:leading-loose"
             >
-              I will help you to
-              <span class="font-bold">accomplish your goals</span>.
+              Let's Build Something
+              <span class="font-bold">Together</span>.
             </h1>
           </div>
         </div>
