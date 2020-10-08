@@ -44,8 +44,9 @@
               data-aos-duration="500"
               class="mt-4 md:mt-0 ml-4 md:ml-0 text-md md:text-lg font-normal tracking-wide leading-loose"
             >
-              Born and raised in the beautiful Portuguese coast. By day I'm a
-              Developer, but by night I'm a massive hard working person.
+              Born and raised in the beautiful Portuguese coast. Since October
+              2020 I am living in Näfels, Switzerland. By day I'm a Developer,
+              but by night I'm a massive hard working person.
             </p>
             <p
               data-aos="fade-up"
@@ -192,7 +193,7 @@
 export default {
   data: () => {
     return {
-      img: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1594059634/nuxt-portfolio/me_j2astx.png'
+      img: 'https://res.cloudinary.com/dj5iihhqv/image/upload/v1602195193/nuxt-portfolio/asdadsa_tjh1jw.jpg'
     }
   }
 }
